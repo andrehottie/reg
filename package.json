@@ -1,0 +1,32 @@
+{
+    "name": "redux-entity-generator",
+    "version": "1.1.0",
+    "types": "lib/reg.d.ts",
+    "main": "lib/reg.js",
+    "bin": "lib/reg.js",
+    "description": "This is a JS cli tool with a friendly interface to quickly generate redux entities",
+    "scripts": {
+      "quicky": "ts-node reg.ts",
+      "build": "tsc",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "busce",
+    "keywords": [
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/andrehottie/reg.git"
+    },
+    "license": "ISC",
+    "dependencies": {
+      "@types/inquirer": "^7.3.1",
+      "fs": "0.0.1-security",
+      "inquirer": "^7.3.3",
+      "ts-node": "^9.0.0"
+    },
+    "devDependencies": {
+      "@types/node": "^14.10.1",
+      "typescript": "^4.0.2"
+    }
+  }
+  
